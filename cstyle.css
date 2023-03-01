@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+:root{
+    --cor-1: black;
+    --cor-2: #f6f6f6;
+    --cor-3: #22D4FD;
+}
+body{
+    background-color: var(--cor-1);
+    color: var(--cor-2);
+}
+.cabecalho{
+    padding: 2% 0% 0% 11%;  
+
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+.cabecalho__link{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-3);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.cabecalho__link:hover{
+   color: #67ddf8;
+   border-bottom: solid 2px white;
+   
+}
+.tela{
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 10%;
+    padding: 1% ;
+    border:inset 10px var(--cor-3);
+
+}
+.teste__texto__foto{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+h1{
+    font-family: 'Krona one', sans-serif;
+    color: var(--cor-2);
+     font-size: 2.25rem; 
+     /*1 rem é igual a 16px (a medida rem é utilizada para acompanhar as modificaçoes feitas pelo usuario em relação a tamanho  */
+}
+h3{
+    font-family: 'Krona one', sans-serif;
+    color: var(--cor-2);
+    font-size: 1.75rem;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+}
